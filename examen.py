@@ -29,6 +29,5 @@ def calPoints(obs)->int:
 if __name__=='__main__':
     line=input()
     ops=line.strip().split()
-    #ops=["5","2","C","D","+"]
-    #ops=["5","-2","4","C","D","9","+","+"]
+
     print(calPoints(ops))
