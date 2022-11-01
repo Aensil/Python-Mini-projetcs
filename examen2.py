@@ -1,23 +1,16 @@
-import imp
-from msilib.schema import Error
-
-
 def isvalid(s: str)->bool:
     result=None
     x = [i for i in s]
     Errors = []
     vali = {')':'(', ']':'[', '}':'{'}
     for i in range(0, len(x)):
-        try:
-            if x[i] == '(' or x[i] == '{' or x[i] == '[':
-                Errors.append(x[i])
+        if x[i] == '(' or x[i] == '{' or x[i] == '[':
+            Errors.append(x[i])
+        else:
+            if vali.get(x[i]) == Errors[-1]:
+                Errors.pop()
             else:
-                if vali.get(x[i]) == Errors[-1]:
-                    Errors.pop()
-                else:
-                    pass
-        except:
-            Errors.append('l')
+                pass
     if len(Errors) == 0:
         result = True
     else:
