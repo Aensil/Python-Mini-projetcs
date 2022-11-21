@@ -105,3 +105,4 @@ for i in df_isla.index:
             result = result + 1
 print('-------------------------------')
 print('El numero total de islas es: ', result)
+rr = input('presione enter para salir: ')

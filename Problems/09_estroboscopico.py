@@ -38,3 +38,4 @@ for i in range(max_num):
 
 print(results)
 print('-------------------------------')
+rr = input('presione enter para salir: ')
