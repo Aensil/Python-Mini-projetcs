@@ -1,11 +1,17 @@
 # Python-test
 A complete practice of the solution of multiple problems, working with the next problems:
 
+
 *Finding islands in binary maps
+
 *Finding all strobe numbers
+
 *Translating text into the correct number
+
 *Web-scraping
+
 *Finding System information
+
 
 Using multiple programming tools such as Object-oriented programming
 
