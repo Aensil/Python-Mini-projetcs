@@ -1,5 +1,5 @@
 # Python-test
-A complete practice of the solution of multiple problems, working with the next problems:
+A complete resolution of multiple problems, working with the next problems:
 
 
 *Finding islands in binary maps
